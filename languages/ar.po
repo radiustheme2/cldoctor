@@ -1,0 +1,1899 @@
+# Arabic translation for CLDoctor
+# Domain: cldoctor
+# Generated for conversion to .po / .mo / .l10n.php
+
+msgid ""
+msgstr ""
+"Project-Id-Version: CLDoctor\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-06 05:53+0000\n"
+"PO-Revision-Date: 2026-08-19 04:14+0000\n"
+"Last-Translator: Claude\n"
+"Language-Team: Arabic\n"
+"Language: ar\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Claude\n"
+"X-Domain: cldoctor\n"
+
+#: inc/Helper.php:402
+msgid " Details"
+msgstr " التفاصيل"
+
+#: classified-listing/custom/single/content-single-hero.php:90
+msgid " reviews"
+msgstr " تقييمات"
+
+#. %s is the number of comments
+#: template-parts/content.php:16 classified-listing/custom/single/content-single-1.php:187 classified-listing/custom/single/content-single-tab.php:128
+#, php-format
+msgid "%s Comment"
+msgid_plural "%s Comments"
+msgstr[0] "%s تعليق"
+msgstr[1] "تعليق واحد"
+msgstr[2] "تعليقان"
+msgstr[3] "%s تعليقات"
+msgstr[4] "%s تعليقًا"
+msgstr[5] "%s تعليق"
+
+#. %s is the number of views
+#: classified-listing/listing/meta.php:81 classified-listing/listing/meta.php:150 classified-listing/elementor/listing-ads-slider/grid/style-6.php:174 classified-listing/elementor/listing-ads-slider/grid/style-7.php:175 classified-listing/elementor/listing-ads/list/style-6.php:243 classified-listing/elementor/listing-ads/list/style-7.php:240 classified-listing/elementor/listing-ads/grid/style-6.php:285 classified-listing/elementor/listing-ads/grid/style-7.php:284
+#, php-format
+msgid "%s view"
+msgid_plural "%s views"
+msgstr[0] "%s مشاهدة"
+msgstr[1] "مشاهدة واحدة"
+msgstr[2] "مشاهدتان"
+msgstr[3] "%s مشاهدات"
+msgstr[4] "%s مشاهدةً"
+msgstr[5] "%s مشاهدة"
+
+#. %s is the number of views
+#: inc/Listing_Functions.php:737
+#, php-format
+msgid "%s views"
+msgstr "%s مشاهدة"
+
+#: inc/Traits/DataTrait.php:232
+msgid "1"
+msgstr "1"
+
+#: inc/Customizer/Settings/Blog.php:75 inc/Customizer/Settings/Blog.php:100
+msgid "1 Column"
+msgstr "عمود واحد"
+
+#: inc/Traits/DataTrait.php:221 inc/Customizer/Settings/Listing_Archive_Layout.php:78
+msgid "1 Columns"
+msgstr "عمود واحد"
+
+#: inc/Traits/DataTrait.php:233
+msgid "2"
+msgstr "2"
+
+#: inc/Traits/DataTrait.php:222 inc/Customizer/Settings/Listing_Archive_Layout.php:79 inc/Customizer/Settings/Blog.php:76 inc/Customizer/Settings/Blog.php:101
+msgid "2 Columns"
+msgstr "عمودان"
+
+#: inc/Customizer/Settings/General.php:104 inc/Customizer/Settings/General.php:157
+msgid "200px"
+msgstr "200px"
+
+#: inc/Traits/DataTrait.php:234
+msgid "3"
+msgstr "3"
+
+#: inc/Traits/DataTrait.php:223 inc/Customizer/Settings/Listing_Archive_Layout.php:80 inc/Customizer/Settings/Blog.php:77 inc/Customizer/Settings/Blog.php:102
+msgid "3 Columns"
+msgstr "3 أعمدة"
+
+#: inc/Traits/DataTrait.php:235
+msgid "4"
+msgstr "4"
+
+#: inc/Traits/DataTrait.php:224 inc/Customizer/Settings/Listing_Archive_Layout.php:81 inc/Customizer/Settings/Blog.php:78 inc/Customizer/Settings/Blog.php:103
+msgid "4 Columns"
+msgstr "4 أعمدة"
+
+#: inc/Customizer/Settings/Error_Layout.php:217
+msgid "404 Page Content Padding Bottom"
+msgstr "التبطين السفلي لمحتوى صفحة 404"
+
+#: inc/Customizer/Settings/Error_Layout.php:199
+msgid "404 Page Content Padding Top "
+msgstr "التبطين العلوي لمحتوى صفحة 404 "
+
+#: inc/Traits/DataTrait.php:236
+msgid "5"
+msgstr "5"
+
+#: inc/Traits/DataTrait.php:225 inc/Customizer/Settings/Blog.php:79 inc/Customizer/Settings/Blog.php:104
+msgid "5 Columns"
+msgstr "5 أعمدة"
+
+#: inc/Traits/DataTrait.php:237
+msgid "6"
+msgstr "6"
+
+#: inc/Traits/DataTrait.php:226 inc/Customizer/Settings/Blog.php:80 inc/Customizer/Settings/Blog.php:105
+msgid "6 Columns"
+msgstr "6 أعمدة"
+
+#. 1: Theme name, 2: Version, 3: Changelog URL, 4: Changelog title, 5: Update URL, 6: Update onclick
+#: lib/updater/theme-updater.php:59
+#, php-format
+msgid "<strong>%1$s %2$s</strong> is available. <a href=\"%3$s\" class=\"thickbox\" title=\"%4$s\">Check out what's new</a> or <a href=\"%5$s\"%6$s>update now</a>."
+msgstr "<strong>%1$s %2$s</strong> متاح. <a href=\"%3$s\" class=\"thickbox\" title=\"%4$s\">اطلع على الجديد</a> أو <a href=\"%5$s\"%6$s>حدّث الآن</a>."
+
+#. %s: theme name
+#: lib/lc-helper.php:91
+#, php-format
+msgid "Activate %s to unlock one-click demo import, automatic updates, bundled plugin installation, and premium support."
+msgstr "فعّل %s للحصول على استيراد النسخة التجريبية بنقرة واحدة، والتحديثات التلقائية، وتثبيت الإضافات المرفقة، والدعم المميز."
+
+#: lib/updater/theme-updater.php:40
+msgid "Activate License"
+msgstr "تفعيل الترخيص"
+
+#: lib/updater/theme-updater-admin.php:500
+msgid "activate your theme license"
+msgstr "فعّل ترخيص القالب الخاص بك"
+
+#: lib/lc-helper.php:78 lib/updater/theme-updater-admin.php:159
+msgid "Activated"
+msgstr "مفعّل"
+
+#: lib/lc-helper.php:160
+msgid "Activation issues are usually a mistyped code or a license already in use on another domain."
+msgstr "مشاكل التفعيل تحدث عادة بسبب رمز مكتوب بشكل خاطئ أو ترخيص مستخدم بالفعل على نطاق آخر."
+
+#: template-parts/header/site-nav.php:25
+msgid "Add a menu"
+msgstr "أضف قائمة"
+
+#: inc/Customizer/Settings/General.php:183
+msgid "Add banner image to change default image"
+msgstr "أضف صورة البانر لتغيير الصورة الافتراضية"
+
+#: inc/Customizer/Settings/General.php:128
+msgid "Add logo for mobile header"
+msgstr "أضف الشعار لترويسة الجوال"
+
+#: inc/Customizer/Settings/General.php:75
+msgid "Add logo for white background"
+msgstr "أضف الشعار للخلفية البيضاء"
+
+#: inc/Customizer/Settings/General.php:44
+msgid "Add site main logo"
+msgstr "أضف الشعار الرئيسي للموقع"
+
+#: classified-listing/listing/listing-sidebar.php:169 classified-listing/store/details-modal.php:71
+msgid "Address"
+msgstr "العنوان"
+
+#: inc/Customizer/Customizer.php:90 inc/Customizer/Customizer.php:98
+msgid "Adjust the overall layout for your site."
+msgstr "اضبط التخطيط العام لموقعك."
+
+#: classified-listing/elementor/listing-cat-slider/grid-style-1.php:92
+msgid "Ads"
+msgstr "الإعلانات"
+
+#: classified-listing/custom/listing-search-widget.php:75 classified-listing/custom/listing-search-banner.php:68 classified-listing/elementor/listing-ads/grid/style-6.php:39 classified-listing/elementor/listing-ads/grid/style-7.php:40
+msgid "All"
+msgstr "الكل"
+
+#: inc/Customizer/Customizer.php:154
+msgid "All Footer"
+msgstr "كل التذييل"
+
+#: inc/Customizer/Customizer.php:66
+msgid "All footer settings here."
+msgstr "جميع إعدادات التذييل هنا."
+
+#: inc/Customizer/Customizer.php:50
+msgid "All general settings here."
+msgstr "جميع الإعدادات العامة هنا."
+
+#: inc/Customizer/Customizer.php:58
+msgid "All header settings here."
+msgstr "جميع إعدادات الترويسة هنا."
+
+#: inc/Customizer/Typography/Typography.php:144
+msgid "All Heading Typography (H1-H6)"
+msgstr "طباعة جميع العناوين (H1-H6)"
+
+#: inc/Helper.php:378
+msgid "All Posts"
+msgstr "كل المنشورات"
+
+#: classified-listing/myaccount/form-registration.php:86
+msgid "Already have an account? Please login"
+msgstr "لديك حساب بالفعل؟ الرجاء تسجيل الدخول"
+
+#: classified-listing/store/details-modal.php:65
+msgid "Always Open"
+msgstr "مفتوح دائماً"
+
+#: inc/Customizer/Settings/Footer.php:207 inc/Customizer/Settings/Footer.php:398 inc/Customizer/Settings/Footer.php:653 inc/Customizer/Settings/Footer.php:849
+msgid "Area 1 Columns"
+msgstr "المنطقة 1 أعمدة"
+
+#: inc/Customizer/Settings/Footer.php:223 inc/Customizer/Settings/Footer.php:414 inc/Customizer/Settings/Footer.php:669 inc/Customizer/Settings/Footer.php:865
+msgid "Area 2 Columns"
+msgstr "المنطقة 2 أعمدة"
+
+#: inc/Customizer/Settings/Footer.php:239 inc/Customizer/Settings/Footer.php:430 inc/Customizer/Settings/Footer.php:685 inc/Customizer/Settings/Footer.php:881
+msgid "Area 3 Columns"
+msgstr "المنطقة 3 أعمدة"
+
+#: inc/Customizer/Settings/Footer.php:255 inc/Customizer/Settings/Footer.php:446 inc/Customizer/Settings/Footer.php:701 inc/Customizer/Settings/Footer.php:897
+msgid "Area 4 Columns"
+msgstr "المنطقة 4 أعمدة"
+
+#: inc/Customizer/Settings/Footer.php:271 inc/Customizer/Settings/Footer.php:462 inc/Customizer/Settings/Footer.php:717 inc/Customizer/Settings/Footer.php:913
+msgid "Area 5 Columns"
+msgstr "المنطقة 5 أعمدة"
+
+#: inc/Customizer/Settings/Footer.php:280 inc/Customizer/Settings/Footer.php:478 inc/Customizer/Settings/Footer.php:733 inc/Customizer/Settings/Footer.php:929
+msgid "Area 6 Columns"
+msgstr "المنطقة 6 أعمدة"
+
+#: classified-listing/custom/single/content-single-1.php:115 classified-listing/custom/single/content-single-1.php:181 classified-listing/custom/single/content-single-tab.php:59 classified-listing/custom/single/content-single-tab.php:122
+msgid "Articles"
+msgstr "المقالات"
+
+#: classified-listing/claim/claim-popup-form.php:59
+msgid "Attachment"
+msgstr "المرفق"
+
+#: inc/Helper.php:238
+msgid "Auto Suggestion"
+msgstr "الاقتراح التلقائي"
+
+#: template-parts/content-single.php:104
+msgid "Autohr"
+msgstr "الكاتب"
+
+#: classified-listing/listing/listing-sidebar.php:94
+msgid "Available today"
+msgstr "متاح اليوم"
+
+#: inc/Customizer/Settings/General.php:263
+msgid "Back to Top"
+msgstr "العودة إلى الأعلى"
+
+#: inc/Customizer/Settings/Footer.php:147 inc/Customizer/Settings/Footer.php:338 inc/Customizer/Settings/Footer.php:593 inc/Customizer/Settings/Footer.php:789
+msgid "Background Color"
+msgstr "لون الخلفية"
+
+#: inc/Customizer/Settings/Footer.php:122 inc/Customizer/Settings/Footer.php:312 inc/Customizer/Settings/Footer.php:568 inc/Customizer/Settings/Footer.php:764
+msgid "Background Image"
+msgstr "صورة الخلفية"
+
+#: inc/Customizer/Settings/Listing_Single_Layout.php:164 inc/Customizer/Settings/Listing_Archive_Layout.php:217 inc/Customizer/Settings/Blog_Layout.php:194 inc/Customizer/Settings/Error_Layout.php:164 inc/Customizer/Settings/Post_Layout.php:194 inc/Customizer/Settings/Page_Layout.php:194
+msgid "Background Opacity"
+msgstr "شفافية الخلفية"
+
+#: inc/Customizer/Settings/Footer.php:162 inc/Customizer/Settings/Footer.php:353 inc/Customizer/Settings/Footer.php:608 inc/Customizer/Settings/Footer.php:804
+msgid "Background Opacity (1-100%)"
+msgstr "شفافية الخلفية (1-100%)"
+
+#: inc/Customizer/Settings/Listing_Single_Layout.php:98 inc/Customizer/Settings/Listing_Archive_Layout.php:151 inc/Customizer/Settings/Blog_Layout.php:128 inc/Customizer/Settings/Error_Layout.php:98 inc/Customizer/Settings/Post_Layout.php:128 inc/Customizer/Settings/Page_Layout.php:128
+msgid "Banner"
+msgstr "البانر"
+
+#: inc/Customizer/Settings/Listing_Single_Layout.php:145 inc/Customizer/Settings/Listing_Archive_Layout.php:198 inc/Customizer/Settings/Blog_Layout.php:175 inc/Customizer/Settings/Error_Layout.php:145 inc/Customizer/Settings/Post_Layout.php:175 inc/Customizer/Settings/Page_Layout.php:175
+msgid "Banner Background Color"
+msgstr "لون خلفية البانر"
+
+#: inc/Customizer/Settings/Listing_Single_Layout.php:116 inc/Customizer/Settings/Listing_Archive_Layout.php:169 inc/Customizer/Settings/Blog_Layout.php:146 inc/Customizer/Settings/Error_Layout.php:116 inc/Customizer/Settings/Post_Layout.php:146 inc/Customizer/Settings/Page_Layout.php:146
+msgid "Banner Background Image"
+msgstr "صورة خلفية البانر"
+
+#: inc/Customizer/Settings/General.php:182
+msgid "Banner Image"
+msgstr "صورة البانر"
+
+#: inc/Customizer/Settings/Blog_Layout.php:228
+msgid "Banner Padding Top"
+msgstr "التبطين العلوي للبانر"
+
+#: inc/Customizer/Settings/Listing_Single_Layout.php:181 inc/Customizer/Settings/Listing_Archive_Layout.php:234 inc/Customizer/Settings/Blog_Layout.php:211 inc/Customizer/Settings/Error_Layout.php:181 inc/Customizer/Settings/Post_Layout.php:211 inc/Customizer/Settings/Page_Layout.php:211
+msgid "Banner Title"
+msgstr "عنوان البانر"
+
+#: inc/General.php:88
+msgid "Black"
+msgstr "أسود"
+
+#. Name of the template
+#: templates/blank.php:2
+msgid "Blank Template"
+msgstr "قالب فارغ"
+
+#: inc/Customizer/Customizer.php:81 inc/Customizer/Customizer.php:192
+msgid "Blog"
+msgstr "المدونة"
+
+#: inc/Customizer/Customizer.php:82
+msgid "Blog archive & post single settings."
+msgstr "إعدادات أرشيف المدونة وصفحة المنشور المفرد."
+
+#: inc/Customizer/Settings/Blog_Layout.php:229
+msgid "Blog Archive Banner Padding Top "
+msgstr "التبطين العلوي لبانر أرشيف المدونة "
+
+#: inc/Customizer/Settings/Blog_Layout.php:247
+msgid "Blog Archive Content Padding Bottom"
+msgstr "التبطين السفلي لمحتوى أرشيف المدونة"
+
+#: inc/Customizer/Customizer.php:265 inc/Customizer/Settings/Blog.php:44
+msgid "Blog Layout"
+msgstr "تخطيط المدونة"
+
+#: inc/Customizer/Typography/Typography.php:49 inc/Customizer/Typography/Typography.php:85
+msgid "Body"
+msgstr "النص الأساسي"
+
+#: inc/Customizer/Settings/Color.php:75
+msgid "Body Color"
+msgstr "لون النص الأساسي"
+
+#: inc/Listing_Functions.php:645
+msgid "Book an Appointment"
+msgstr "احجز موعداً"
+
+#: inc/Listing_Functions.php:295
+msgid "Booking Button Label"
+msgstr "تسمية زر الحجز"
+
+#. %1\$s is the currency symbol, %2\$s is the fee amount
+#: classified-listing/booking/confirmation-form.php:55
+msgid "Booking Fee: %1\\$s%2\\$s"
+msgstr "رسوم الحجز: %1\\$s%2\\$s"
+
+#: inc/Customizer/Settings/Listing_Single_Layout.php:82 inc/Customizer/Settings/Listing_Archive_Layout.php:135 inc/Customizer/Settings/Blog_Layout.php:112 inc/Customizer/Settings/Error_Layout.php:82 inc/Customizer/Settings/Header.php:80 inc/Customizer/Settings/Post_Layout.php:112 inc/Customizer/Settings/Page_Layout.php:112
+msgid "Box width"
+msgstr "عرض الصندوق"
+
+#: inc/Customizer/Settings/Listing_Single_Layout.php:234 inc/Customizer/Settings/Listing_Archive_Layout.php:287 inc/Customizer/Settings/Blog_Layout.php:264 inc/Customizer/Settings/Error_Layout.php:234 inc/Customizer/Settings/Post_Layout.php:264 inc/Customizer/Settings/Page_Layout.php:264
+msgid "Breadcrumb"
+msgstr "مسار التنقل"
+
+#: inc/General.php:297
+msgctxt "breadcrumb"
+msgid "Home"
+msgstr "الرئيسية"
+
+#: inc/Customizer/Settings/Header.php:239
+msgid "Breadcrumb Visibility"
+msgstr "ظهور مسار التنقل"
+
+#: inc/Customizer/Customizer.php:247
+msgid "Button Color"
+msgstr "لون الزر"
+
+#: inc/Customizer/Settings/Color.php:107
+msgid "Button Color 1"
+msgstr "لون الزر 1"
+
+#: inc/Customizer/Settings/Color.php:121
+msgid "Button Color 2"
+msgstr "لون الزر 2"
+
+#: inc/Customizer/Settings/Header.php:144
+msgid "Button Link"
+msgstr "رابط الزر"
+
+#: inc/Customizer/Settings/Header.php:128 inc/Customizer/Settings/Error.php:96
+msgid "Button Text"
+msgstr "نص الزر"
+
+#. %s is the number of ratings
+#: classified-listing/listing/meta.php:60 classified-listing/listing/meta.php:127 classified-listing/elementor/listing-ads-slider/grid/style-6.php:153 classified-listing/elementor/listing-ads-slider/grid/style-7.php:154 classified-listing/elementor/listing-ads/list/style-6.php:219 classified-listing/elementor/listing-ads/list/style-7.php:227 classified-listing/elementor/listing-ads/grid/style-6.php:264 classified-listing/elementor/listing-ads/grid/style-7.php:263
+msgid "by "
+msgstr "بواسطة "
+
+#: lib/lc-helper.php:113
+msgid "by RadiusTheme"
+msgstr "بواسطة RadiusTheme"
+
+#: inc/Listing_Functions.php:866
+msgid "Category Image"
+msgstr "صورة الفئة"
+
+#: inc/Customizer/Settings/Listing_Single_Layout.php:64 inc/Customizer/Settings/Listing_Archive_Layout.php:117 inc/Customizer/Settings/Blog_Layout.php:94 inc/Customizer/Settings/Error_Layout.php:64 inc/Customizer/Settings/Header.php:63 inc/Customizer/Settings/Post_Layout.php:94 inc/Customizer/Settings/Page_Layout.php:94
+msgid "Center Alignment"
+msgstr "محاذاة للوسط"
+
+#: inc/Customizer/Settings/Listing_Single_Layout.php:122 inc/Customizer/Settings/Listing_Archive_Layout.php:175 inc/Customizer/Settings/Blog_Layout.php:152 inc/Customizer/Settings/Error_Layout.php:122 inc/Customizer/Settings/Error.php:44 inc/Customizer/Settings/Footer.php:128 inc/Customizer/Settings/Footer.php:318 inc/Customizer/Settings/Footer.php:574 inc/Customizer/Settings/Footer.php:770 inc/Customizer/Settings/Post_Layout.php:152 inc/Customizer/Settings/Page_Layout.php:152
+msgid "Change File"
+msgstr "تغيير الملف"
+
+#: inc/Customizer/Settings/General.php:188 inc/Customizer/Settings/General.php:241
+msgid "Change Image"
+msgstr "تغيير الصورة"
+
+#: inc/Customizer/Settings/General.php:49 inc/Customizer/Settings/General.php:80 inc/Customizer/Settings/General.php:133
+msgid "Change Logo"
+msgstr "تغيير الشعار"
+
+#: inc/Customizer/Customizer.php:74
+msgid "Change site color"
+msgstr "تغيير لون الموقع"
+
+#: inc/Customizer/Typography/Typography.php:42
+msgid "Change site typography."
+msgstr "تغيير طباعة الموقع."
+
+#: inc/Customizer/Settings/Header.php:292
+msgid "Chat button on mobile"
+msgstr "زر الدردشة على الجوال"
+
+#: inc/Customizer/Settings/Header.php:222
+msgid "Chat Button Text"
+msgstr "نص زر الدردشة"
+
+#: inc/Customizer/Settings/Listing_Single_Layout.php:127 inc/Customizer/Settings/Listing_Archive_Layout.php:180 inc/Customizer/Settings/Blog_Layout.php:157 inc/Customizer/Settings/Error_Layout.php:127 inc/Customizer/Settings/Error.php:49 inc/Customizer/Settings/Footer.php:133 inc/Customizer/Settings/Footer.php:323 inc/Customizer/Settings/Footer.php:579 inc/Customizer/Settings/Footer.php:775 inc/Customizer/Settings/Post_Layout.php:157 inc/Customizer/Settings/General.php:54 inc/Customizer/Settings/General.php:85 inc/Customizer/Settings/General.php:138 inc/Customizer/Settings/General.php:193 inc/Customizer/Settings/General.php:246 inc/Customizer/Settings/Page_Layout.php:157
+msgid "Choose File"
+msgstr "اختر الملف"
+
+#: classified-listing/custom/single/content-single-hero.php:152 classified-listing/custom/single/content-single-head.php:163
+msgid "Claim"
+msgstr "المطالبة"
+
+#: lib/lc-helper.php:113
+msgid "Classified Ads WordPress Theme"
+msgstr "قالب ووردبريس للإعلانات المبوبة"
+
+#. Name of the theme
+msgid "CLDoctor"
+msgstr "CLDoctor"
+
+#. Description of the theme
+msgid "CLDoctor is a clean and modern WordPress Theme best suited for Classified Listing. This theme comes with all necessary features and pages for a Classified Listing website."
+msgstr "CLDoctor هو قالب ووردبريس نظيف وعصري مناسب لموقع الإعلانات المبوبة. يأتي هذا القالب بجميع الميزات والصفحات الضرورية لموقع الإعلانات المبوبة."
+
+#: classified-listing/listing/business-hours.php:41
+msgid "Close"
+msgstr "إغلاق"
+
+#: template-parts/footer/photoswipe.php:26
+msgid "Close (Esc)"
+msgstr "إغلاق (Esc)"
+
+#: classified-listing/listing/business-hours.php:74 classified-listing/store/details-modal.php:56
+msgid "Closed"
+msgstr "مغلق"
+
+#: classified-listing/listing/business-hours.php:73
+msgid "Closed Today"
+msgstr "مغلق اليوم"
+
+#: inc/Customizer/Customizer.php:73
+msgid "Color"
+msgstr "اللون"
+
+#: comments.php:24
+msgid "Comment"
+msgstr "تعليق"
+
+#: comments.php:77
+msgid "Comment *"
+msgstr "التعليق *"
+
+#: comments.php:24
+msgid "Comments"
+msgstr "التعليقات"
+
+#: comments.php:47
+msgid "Comments are closed."
+msgstr "التعليقات مغلقة."
+
+#: classified-listing/booking/confirmation-form.php:109
+msgid "Confirm"
+msgstr "تأكيد"
+
+#: classified-listing/myaccount/form-login.php:123 classified-listing/myaccount/form-registration.php:67
+msgid "Confirm Password"
+msgstr "تأكيد كلمة المرور"
+
+#: inc/Customizer/Customizer.php:127
+msgid "Contact & Social"
+msgstr "الاتصال والتواصل الاجتماعي"
+
+#: lib/lc-helper.php:135 lib/lc-helper.php:163
+msgid "Contact Support Center"
+msgstr "اتصل بمركز الدعم"
+
+#: inc/Customizer/Settings/Listing_Single_Layout.php:216 inc/Customizer/Settings/Listing_Archive_Layout.php:269 inc/Customizer/Settings/Blog_Layout.php:246 inc/Customizer/Settings/Error_Layout.php:216 inc/Customizer/Settings/Page_Layout.php:246
+msgid "Content Padding Bottom"
+msgstr "التبطين السفلي للمحتوى"
+
+#: inc/Customizer/Settings/Post_Layout.php:246
+msgid "Content Padding Bottom (rem)"
+msgstr "التبطين السفلي للمحتوى (rem)"
+
+#: inc/Customizer/Settings/Listing_Single_Layout.php:198 inc/Customizer/Settings/Listing_Archive_Layout.php:251 inc/Customizer/Settings/Error_Layout.php:198 inc/Customizer/Settings/Page_Layout.php:228
+msgid "Content Padding Top"
+msgstr "التبطين العلوي للمحتوى"
+
+#: inc/Customizer/Settings/Post_Layout.php:228
+msgid "Content Padding Top (rem)"
+msgstr "التبطين العلوي للمحتوى (rem)"
+
+#: lib/lc-helper.php:152
+#, php-format
+msgid "Copy the key for %s."
+msgstr "انسخ المفتاح لـ %s."
+
+#: inc/Customizer/Settings/Footer.php:177 inc/Customizer/Settings/Footer.php:368 inc/Customizer/Settings/Footer.php:623 inc/Customizer/Settings/Footer.php:819
+msgid "Copyright Background Color"
+msgstr "لون خلفية حقوق النشر"
+
+#: inc/Customizer/Settings/Footer.php:92
+msgid "Copyright Text"
+msgstr "نص حقوق النشر"
+
+#: inc/General.php:73
+msgid "Dark gray"
+msgstr "رمادي داكن"
+
+#: inc/Customizer/Settings/General.php:74
+msgid "Dark Logo"
+msgstr "الشعار الداكن"
+
+#: classified-listing/booking/listing-booking-form.php:94
+msgid "Date"
+msgstr "التاريخ"
+
+#. %s is the booking date
+#: classified-listing/booking/confirmation-form.php:67
+#, php-format
+msgid "Date: %s"
+msgstr "التاريخ: %s"
+
+#. %s is the number of days
+#: classified-listing/booking/confirmation-form.php:69
+#, php-format
+msgid "Days: %s"
+msgstr "الأيام: %s"
+
+#: inc/Listing_Functions.php:628
+msgid "dd/mm/yyyy"
+msgstr "يوم/شهر/سنة"
+
+#: lib/updater/theme-updater.php:39
+msgid "Deactivate License"
+msgstr "إلغاء تفعيل الترخيص"
+
+#: inc/Customizer/Settings/Listing_Single_Layout.php:62 inc/Customizer/Settings/Listing_Single_Layout.php:81 inc/Customizer/Settings/Listing_Single_Layout.php:100 inc/Customizer/Settings/Listing_Single_Layout.php:123 inc/Customizer/Settings/Listing_Single_Layout.php:236 inc/Customizer/Settings/Listing_Archive_Layout.php:115 inc/Customizer/Settings/Listing_Archive_Layout.php:134 inc/Customizer/Settings/Listing_Archive_Layout.php:153 inc/Customizer/Settings/Listing_Archive_Layout.php:176 inc/Customizer/Settings/Listing_Archive_Layout.php:289 inc/Customizer/Settings/Blog_Layout.php:92 inc/Customizer/Settings/Blog_Layout.php:111 inc/Customizer/Settings/Blog_Layout.php:130 inc/Customizer/Settings/Blog_Layout.php:153 inc/Customizer/Settings/Blog_Layout.php:266 inc/Customizer/Settings/Error_Layout.php:62 inc/Customizer/Settings/Error_Layout.php:81 inc/Customizer/Settings/Error_Layout.php:100 inc/Customizer/Settings/Error_Layout.php:123 inc/Customizer/Settings/Error_Layout.php:236 inc/Customizer/Settings/Error.php:45 inc/Customizer/Settings/Footer.php:129 inc/Customizer/Settings/Footer.php:319 inc/Customizer/Settings/Footer.php:575 inc/Customizer/Settings/Footer.php:771 inc/Customizer/Settings/Post_Layout.php:92 inc/Customizer/Settings/Post_Layout.php:111 inc/Customizer/Settings/Post_Layout.php:130 inc/Customizer/Settings/Post_Layout.php:153 inc/Customizer/Settings/Post_Layout.php:266 inc/Customizer/Settings/General.php:50 inc/Customizer/Settings/General.php:81 inc/Customizer/Settings/General.php:134 inc/Customizer/Settings/General.php:189 inc/Customizer/Settings/General.php:242 inc/Customizer/Settings/Page_Layout.php:92 inc/Customizer/Settings/Page_Layout.php:111 inc/Customizer/Settings/Page_Layout.php:130 inc/Customizer/Settings/Page_Layout.php:153 inc/Customizer/Settings/Page_Layout.php:266
+msgid "Default"
+msgstr "افتراضي"
+
+#: inc/Helper.php:239
+msgid "Dependency Selection"
+msgstr "اختيار التبعية"
+
+#: classified-listing/store/details-modal.php:77
+msgid "Description"
+msgstr "الوصف"
+
+#: classified-listing/claim/claim-popup-form.php:52 classified-listing/custom/single/content-single-1.php:90 classified-listing/custom/single/content-single-tab.php:34
+msgid "Details"
+msgstr "التفاصيل"
+
+#: inc/Customizer/Settings/Listing_Single_Layout.php:102 inc/Customizer/Settings/Listing_Single_Layout.php:238 inc/Customizer/Settings/Listing_Archive_Layout.php:155 inc/Customizer/Settings/Listing_Archive_Layout.php:291 inc/Customizer/Settings/Blog_Layout.php:132 inc/Customizer/Settings/Blog_Layout.php:268 inc/Customizer/Settings/Error_Layout.php:102 inc/Customizer/Settings/Error_Layout.php:238 inc/Customizer/Settings/Post_Layout.php:132 inc/Customizer/Settings/Post_Layout.php:268 inc/Customizer/Settings/Page_Layout.php:132 inc/Customizer/Settings/Page_Layout.php:268
+msgid "Disable"
+msgstr "تعطيل"
+
+#: inc/Customizer/Settings/Post.php:53 inc/Customizer/Settings/Blog.php:134
+msgid "Display Author Name"
+msgstr "عرض اسم الكاتب"
+
+#: inc/Customizer/Settings/Blog.php:164
+msgid "Display Button"
+msgstr "عرض الزر"
+
+#: inc/Customizer/Settings/Post.php:81 inc/Customizer/Settings/Blog.php:149
+msgid "Display Category"
+msgstr "عرض الفئة"
+
+#: inc/Customizer/Settings/Post.php:67 inc/Customizer/Settings/Blog.php:179
+msgid "Display Comment Count"
+msgstr "عرض عدد التعليقات"
+
+#: inc/Customizer/Settings/Footer.php:77
+msgid "Display Copyright Area"
+msgstr "عرض منطقة حقوق النشر"
+
+#: inc/Customizer/Settings/Post.php:39 inc/Customizer/Settings/Blog.php:120
+msgid "Display Date"
+msgstr "عرض التاريخ"
+
+#: inc/Customizer/Settings/Post.php:95
+msgid "Display Related Posts"
+msgstr "عرض المنشورات ذات الصلة"
+
+#: inc/Customizer/Settings/Post.php:123
+msgid "Display Social Share"
+msgstr "عرض المشاركة الاجتماعية"
+
+#: inc/Customizer/Settings/Post.php:109
+msgid "Display Tag"
+msgstr "عرض الوسم"
+
+#: inc/Listing_Functions.php:276
+msgid "Doctor Designation"
+msgstr "تخصص الطبيب"
+
+#: inc/Listing_Functions.php:277
+msgid "Doctor Meet Time"
+msgstr "وقت مقابلة الطبيب"
+
+#: comments.php:71 classified-listing/booking/confirmation-form.php:88 classified-listing/listing/listing-sidebar.php:210 classified-listing/claim/claim-popup-form.php:42
+msgid "Email"
+msgstr "البريد الإلكتروني"
+
+#: classified-listing/myaccount/form-login.php:104 classified-listing/myaccount/form-registration.php:48
+msgid "Email address"
+msgstr "عنوان البريد الإلكتروني"
+
+#: inc/Customizer/Settings/Listing_Single_Layout.php:101 inc/Customizer/Settings/Listing_Single_Layout.php:237 inc/Customizer/Settings/Listing_Archive_Layout.php:154 inc/Customizer/Settings/Listing_Archive_Layout.php:290 inc/Customizer/Settings/Blog_Layout.php:131 inc/Customizer/Settings/Blog_Layout.php:267 inc/Customizer/Settings/Error_Layout.php:101 inc/Customizer/Settings/Error_Layout.php:237 inc/Customizer/Settings/Post_Layout.php:131 inc/Customizer/Settings/Post_Layout.php:267 inc/Customizer/Settings/Page_Layout.php:131 inc/Customizer/Settings/Page_Layout.php:267
+msgid "Enable"
+msgstr "تفعيل"
+
+#: classified-listing/custom/listing-search-widget.php:182 classified-listing/custom/listing-search-banner.php:174
+msgid "Enter location"
+msgstr "أدخل الموقع"
+
+#: inc/Customizer/Settings/General.php:102 inc/Customizer/Settings/General.php:155
+msgid "Enter logo width. Eg: 200px"
+msgstr "أدخل عرض الشعار. مثال: 200px"
+
+#: lib/updater/theme-updater-admin.php:152
+msgid "Enter your theme license key"
+msgstr "أدخل مفتاح ترخيص القالب"
+
+#: lib/updater/theme-updater.php:36
+msgid "Enter your theme license key."
+msgstr "أدخل مفتاح ترخيص القالب."
+
+#: inc/Customizer/Settings/Error.php:39
+msgid "Error Image"
+msgstr "صورة الخطأ"
+
+#: inc/Customizer/Customizer.php:289
+msgid "Error Layout"
+msgstr "تخطيط الخطأ"
+
+#: inc/Customizer/Customizer.php:316
+msgid "Error Page"
+msgstr "صفحة الخطأ"
+
+#: inc/Customizer/Settings/Error.php:64 inc/Customizer/Settings/Error.php:80
+msgid "Error Text"
+msgstr "نص الخطأ"
+
+#: inc/Customizer/Settings/Blog.php:193
+msgid "Excerpt Length"
+msgstr "طول المقتطف"
+
+#. %s: expiration date
+#: lib/updater/theme-updater.php:46
+#, php-format
+msgid "Expires %s."
+msgstr "ينتهي في %s."
+
+#: inc/Customizer/Settings/Contact_Info.php:52
+msgid "Facebook"
+msgstr "فيسبوك"
+
+#: inc/Listing_Functions.php:339
+msgid "Favourites"
+msgstr "المفضلة"
+
+#: classified-listing/custom/single/content-single-1.php:97 classified-listing/custom/single/content-single-tab.php:41
+msgid "Feedback"
+msgstr "التقييم"
+
+#: inc/TGM_Config.php:45
+msgid "Fluent Forms"
+msgstr "Fluent Forms"
+
+#: template-parts/footer/footer-1.php:46 template-parts/footer/footer-3.php:52 template-parts/footer/footer-2.php:70 template-parts/footer/footer-4.php:51
+msgid "Follow Social:"
+msgstr "تابعنا على:"
+
+#: classified-listing/custom/listing-info.php:131
+msgid "Follow Us On:"
+msgstr "تابعنا على:"
+
+#: inc/Customizer/Typography/Typography.php:102 inc/Customizer/Typography/Typography.php:189 inc/Customizer/Typography/Typography.php:255 inc/Customizer/Typography/Typography.php:321 inc/Customizer/Typography/Typography.php:387 inc/Customizer/Typography/Typography.php:453 inc/Customizer/Typography/Typography.php:519 inc/Customizer/Typography/Typography.php:589
+msgid "Font Size"
+msgstr "حجم الخط"
+
+#: inc/Customizer/Typography/Typography.php:103 inc/Customizer/Typography/Typography.php:190 inc/Customizer/Typography/Typography.php:256 inc/Customizer/Typography/Typography.php:322 inc/Customizer/Typography/Typography.php:388 inc/Customizer/Typography/Typography.php:454 inc/Customizer/Typography/Typography.php:520 inc/Customizer/Typography/Typography.php:590 inc/Customizer/Typography/Typography.php:640
+msgid "Font Size (px)"
+msgstr "حجم الخط (px)"
+
+#: inc/Customizer/Customizer.php:65
+msgid "Footer"
+msgstr "التذييل"
+
+#: inc/General.php:165
+msgid "Footer (Style 1) 1"
+msgstr "التذييل (النمط 1) 1"
+
+#: inc/General.php:166
+msgid "Footer (Style 1) 2"
+msgstr "التذييل (النمط 1) 2"
+
+#: inc/General.php:167
+msgid "Footer (Style 1) 3"
+msgstr "التذييل (النمط 1) 3"
+
+#: inc/General.php:168
+msgid "Footer (Style 1) 4"
+msgstr "التذييل (النمط 1) 4"
+
+#: inc/General.php:169
+msgid "Footer (Style 1) 5"
+msgstr "التذييل (النمط 1) 5"
+
+#: inc/General.php:170
+msgid "Footer (Style 1) 6"
+msgstr "التذييل (النمط 1) 6"
+
+#: inc/Customizer/Customizer.php:161
+msgid "Footer 1"
+msgstr "التذييل 1"
+
+#: inc/Customizer/Settings/Footer.php:109
+msgid "Footer 1 Settings"
+msgstr "إعدادات التذييل 1"
+
+#: inc/Customizer/Customizer.php:168
+msgid "Footer 2"
+msgstr "التذييل 2"
+
+#: inc/Customizer/Settings/Footer.php:298
+msgid "Footer 2 Settings"
+msgstr "إعدادات التذييل 2"
+
+#: inc/Customizer/Customizer.php:175
+msgid "Footer 3"
+msgstr "التذييل 3"
+
+#: inc/Customizer/Settings/Footer.php:555
+msgid "Footer 3 Settings"
+msgstr "إعدادات التذييل 3"
+
+#: inc/Customizer/Customizer.php:182
+msgid "Footer 4"
+msgstr "التذييل 4"
+
+#: inc/Customizer/Settings/Footer.php:751
+msgid "Footer 4 Settings"
+msgstr "إعدادات التذييل 4"
+
+#: inc/Customizer/Customizer.php:254
+msgid "Footer Color"
+msgstr "لون التذييل"
+
+#: inc/Customizer/Settings/Footer.php:60
+msgid "Footer Layouts"
+msgstr "تخطيطات التذييل"
+
+#: inc/Customizer/Settings/Footer.php:541
+msgid "Footer newsletter Shortcode"
+msgstr "الكود المختصر لنشرة التذييل"
+
+#: inc/Customizer/Settings/Footer.php:525
+msgid "Footer newsletter sub title"
+msgstr "العنوان الفرعي لنشرة التذييل"
+
+#: inc/Customizer/Settings/Footer.php:509
+msgid "Footer newsletter title"
+msgstr "عنوان نشرة التذييل"
+
+#: classified-listing/listing/loop/thumbnail.php:26 classified-listing/custom/single/content-single-head.php:83 classified-listing/elementor/listing-ads-slider/grid/style-6.php:59 classified-listing/elementor/listing-ads-slider/grid/style-7.php:60 classified-listing/elementor/listing-ads/list/style-6.php:94 classified-listing/elementor/listing-ads/list/style-7.php:83 classified-listing/elementor/listing-ads/grid/style-6.php:128 classified-listing/elementor/listing-ads/grid/style-7.php:144
+msgid "For"
+msgstr "لـ"
+
+#: inc/Listing_Functions.php:401 classified-listing/myaccount/form-login.php:75
+msgid "Forgot your password?"
+msgstr "نسيت كلمة المرور؟"
+
+#: classified-listing/listing/listing-sidebar.php:120
+msgid "Free cancellation up to 24h before"
+msgstr "إلغاء مجاني حتى 24 ساعة قبل الموعد"
+
+#: inc/Customizer/Settings/Listing_Archive_Layout.php:53 inc/Customizer/Settings/Blog_Layout.php:53 inc/Customizer/Settings/Post_Layout.php:53 inc/Customizer/Settings/Page_Layout.php:53
+msgid "Full Width"
+msgstr "عرض كامل"
+
+#: inc/Customizer/Settings/Listing_Single_Layout.php:83 inc/Customizer/Settings/Listing_Archive_Layout.php:136 inc/Customizer/Settings/Blog_Layout.php:113 inc/Customizer/Settings/Error_Layout.php:83 inc/Customizer/Settings/Header.php:81 inc/Customizer/Settings/Post_Layout.php:113 inc/Customizer/Settings/Page_Layout.php:113
+msgid "Fullwidth"
+msgstr "عرض كامل"
+
+#: classified-listing/custom/single/content-single-1.php:150 classified-listing/custom/single/content-single-tab.php:91
+msgid "Gallery"
+msgstr "المعرض"
+
+#: inc/Customizer/Customizer.php:49 inc/Customizer/Customizer.php:120
+msgid "General"
+msgstr "عام"
+
+#: classified-listing/listing/listing-sidebar.php:233
+msgid "Get directions"
+msgstr "احصل على الاتجاهات"
+
+#: template-parts/content-none.php:17
+msgid "Get started here"
+msgstr "ابدأ من هنا"
+
+#: lib/lc-helper.php:151
+msgid "Go to Downloads, then License keys."
+msgstr "اذهب إلى التنزيلات، ثم مفاتيح الترخيص."
+
+#: inc/Scripts.php:87
+msgctxt "Google font: on or off"
+msgid "on"
+msgstr "on"
+
+#: inc/Customizer/Settings/Blog.php:54
+msgid "Grid"
+msgstr "الشبكة"
+
+#: inc/Customizer/Settings/Listing_Archive_Layout.php:73
+msgid "Grid Columns"
+msgstr "أعمدة الشبكة"
+
+#: inc/Customizer/Settings/Blog.php:70
+msgid "Grid layput Columns"
+msgstr "أعمدة تخطيط الشبكة"
+
+#. %s is the number of guests
+#: classified-listing/booking/confirmation-form.php:64
+#, php-format
+msgid "Guest: %s"
+msgstr "الضيف: %s"
+
+#: inc/Customizer/Customizer.php:57
+msgid "Header"
+msgstr "الترويسة"
+
+#: inc/Customizer/Settings/Header.php:208
+msgid "Header Chat Button"
+msgstr "زر الدردشة في الترويسة"
+
+#: inc/Customizer/Customizer.php:144
+msgid "Header Control Switches"
+msgstr "مفاتيح التحكم بالترويسة"
+
+#: inc/Customizer/Typography/Typography.php:172
+msgid "Header h1 "
+msgstr "ترويسة h1 "
+
+#: inc/Customizer/Typography/Typography.php:238
+msgid "Header h2 "
+msgstr "ترويسة h2 "
+
+#: inc/Customizer/Typography/Typography.php:304
+msgid "Header h3 "
+msgstr "ترويسة h3 "
+
+#: inc/Customizer/Typography/Typography.php:370
+msgid "Header h4 "
+msgstr "ترويسة h4 "
+
+#: inc/Customizer/Typography/Typography.php:436
+msgid "Header h5 "
+msgstr "ترويسة h5 "
+
+#: inc/Customizer/Typography/Typography.php:502
+msgid "Header h6 "
+msgstr "ترويسة h6 "
+
+#: inc/Customizer/Settings/Header.php:43
+msgid "Header Layout"
+msgstr "تخطيط الترويسة"
+
+#: inc/Customizer/Settings/Header.php:113
+msgid "Header Link Button"
+msgstr "زر رابط الترويسة"
+
+#: inc/Customizer/Settings/Header.php:161
+msgid "Header Login Button"
+msgstr "زر تسجيل الدخول في الترويسة"
+
+#: inc/Customizer/Customizer.php:137
+msgid "Header Variation"
+msgstr "تنويع الترويسة"
+
+#: inc/Customizer/Settings/Listing_Single_Layout.php:79 inc/Customizer/Settings/Listing_Archive_Layout.php:132 inc/Customizer/Settings/Blog_Layout.php:109 inc/Customizer/Settings/Error_Layout.php:79 inc/Customizer/Settings/Header.php:78 inc/Customizer/Settings/Post_Layout.php:109 inc/Customizer/Settings/Page_Layout.php:109
+msgid "Header Width"
+msgstr "عرض الترويسة"
+
+#: inc/Customizer/Typography/Typography.php:57
+msgid "Heading"
+msgstr "العنوان"
+
+#: inc/Customizer/Settings/Color.php:89
+msgid "Heading Color"
+msgstr "لون العنوان"
+
+#: classified-listing/myaccount/form-registration.php:87
+msgid "Here"
+msgstr "هنا"
+
+#: template-parts/header/header-offscreen.php:62
+msgid "Home"
+msgstr "الرئيسية"
+
+#: inc/Listing_Functions.php:290
+msgid "Hospital Phone Label"
+msgstr "تسمية هاتف المستشفى"
+
+#: inc/Listing_Functions.php:279
+msgid "Hospital Slogan"
+msgstr "شعار المستشفى"
+
+#: inc/Listing_Functions.php:278
+msgid "Hospital Time"
+msgstr "أوقات المستشفى"
+
+#. Author URI of the theme
+msgid "https://www.radiustheme.com"
+msgstr "https://www.radiustheme.com"
+
+#. URI of the theme
+msgid "https://www.radiustheme.com/demo/wordpress/themes/Cldoctor/"
+msgstr "https://www.radiustheme.com/demo/wordpress/themes/Cldoctor/"
+
+#: template-parts/content.php:53
+msgid "in"
+msgstr "في"
+
+#: classified-listing/listing/listing-sidebar.php:142 classified-listing/custom/single/content-single-1.php:128 classified-listing/custom/single/content-single-tab.php:72
+msgid "Information"
+msgstr "المعلومات"
+
+#: inc/Customizer/Settings/Contact_Info.php:82
+msgid "Instagram"
+msgstr "إنستغرام"
+
+#: template-parts/content-none.php:23
+msgid "It seems we can't find what you're looking for. Perhaps searching can help."
+msgstr "يبدو أننا لا نستطيع العثور على ما تبحث عنه. ربما يساعدك البحث."
+
+#. %s is the number of items/guests
+#: classified-listing/booking/confirmation-form.php:57
+#, php-format
+msgid "Item: %s"
+msgstr "العنصر: %s"
+
+#: classified-listing/custom/listing-search-widget.php:268 classified-listing/custom/listing-search-banner.php:260
+msgid "Keyword Search..."
+msgstr "البحث بالكلمة المفتاحية..."
+
+#: classified-listing/custom/single/content-single-hero.php:50 classified-listing/custom/single/content-single-head.php:51
+msgid "Languages"
+msgstr "اللغات"
+
+#: inc/Customizer/Customizer.php:89 inc/Customizer/Settings/Listing_Single_Layout.php:43 inc/Customizer/Settings/Listing_Single_Layout.php:253 inc/Customizer/Settings/Listing_Archive_Layout.php:43 inc/Customizer/Settings/Listing_Archive_Layout.php:96 inc/Customizer/Settings/Listing_Archive_Layout.php:306 inc/Customizer/Settings/Blog_Layout.php:43 inc/Customizer/Settings/Blog_Layout.php:73 inc/Customizer/Settings/Blog_Layout.php:283 inc/Customizer/Settings/Error_Layout.php:43 inc/Customizer/Settings/Error_Layout.php:252 inc/Customizer/Settings/Post_Layout.php:43 inc/Customizer/Settings/Post_Layout.php:73 inc/Customizer/Settings/Post_Layout.php:283 inc/Customizer/Settings/Page_Layout.php:43 inc/Customizer/Settings/Page_Layout.php:73 inc/Customizer/Settings/Page_Layout.php:283
+msgid "Layout"
+msgstr "التخطيط"
+
+#: inc/Helper.php:207 inc/Customizer/Settings/Listings.php:66
+msgid "Layout 1"
+msgstr "التخطيط 1"
+
+#: inc/Helper.php:211 inc/Helper.php:215 inc/Helper.php:219
+msgid "Layout 2"
+msgstr "التخطيط 2"
+
+#: comments.php:87
+msgid "Leave a Comment"
+msgstr "اترك تعليقاً"
+
+#: inc/Customizer/Settings/Listing_Single_Layout.php:63 inc/Customizer/Settings/Listing_Archive_Layout.php:116 inc/Customizer/Settings/Blog_Layout.php:93 inc/Customizer/Settings/Error_Layout.php:63 inc/Customizer/Settings/Header.php:62 inc/Customizer/Settings/Post_Layout.php:93 inc/Customizer/Settings/Page_Layout.php:93
+msgid "Left Alignment"
+msgstr "محاذاة لليسار"
+
+#: inc/Customizer/Settings/Listing_Archive_Layout.php:49 inc/Customizer/Settings/Blog_Layout.php:49 inc/Customizer/Settings/Post_Layout.php:49 inc/Customizer/Settings/Page_Layout.php:49
+msgid "Left Sidebar"
+msgstr "الشريط الجانبي الأيسر"
+
+#: lib/updater/theme-updater.php:38
+msgid "License Action"
+msgstr "إجراء الترخيص"
+
+#: lib/updater/theme-updater.php:53
+msgid "License is inactive."
+msgstr "الترخيص غير نشط."
+
+#: lib/updater/theme-updater.php:37
+msgid "License Key"
+msgstr "مفتاح الترخيص"
+
+#. %s: expiration date
+#: lib/updater/theme-updater.php:50
+#, php-format
+msgid "License key expired %s."
+msgstr "انتهت صلاحية مفتاح الترخيص في %s."
+
+#: lib/updater/theme-updater.php:51
+msgid "License key has expired."
+msgstr "انتهت صلاحية مفتاح الترخيص."
+
+#: lib/updater/theme-updater.php:44
+msgid "License key is active."
+msgstr "مفتاح الترخيص نشط."
+
+#: lib/updater/theme-updater.php:54
+msgid "License key is disabled."
+msgstr "مفتاح الترخيص معطّل."
+
+#: lib/updater/theme-updater.php:52
+msgid "License keys do not match."
+msgstr "مفاتيح الترخيص غير متطابقة."
+
+#: lib/updater/theme-updater-admin.php:157
+msgid "License Status"
+msgstr "حالة الترخيص"
+
+#: lib/updater/theme-updater.php:41 lib/updater/theme-updater.php:56
+msgid "License status is unknown."
+msgstr "حالة الترخيص غير معروفة."
+
+#: inc/General.php:78
+msgid "Light gray"
+msgstr "رمادي فاتح"
+
+#: inc/General.php:113
+msgid "Light green cyan"
+msgstr "أخضر مزرق فاتح"
+
+#: inc/Customizer/Typography/Typography.php:121 inc/Customizer/Typography/Typography.php:208 inc/Customizer/Typography/Typography.php:274 inc/Customizer/Typography/Typography.php:340 inc/Customizer/Typography/Typography.php:406 inc/Customizer/Typography/Typography.php:472 inc/Customizer/Typography/Typography.php:538 inc/Customizer/Typography/Typography.php:608
+msgid "Line Height"
+msgstr "ارتفاع السطر"
+
+#: inc/Customizer/Typography/Typography.php:122 inc/Customizer/Typography/Typography.php:209 inc/Customizer/Typography/Typography.php:275 inc/Customizer/Typography/Typography.php:341 inc/Customizer/Typography/Typography.php:407 inc/Customizer/Typography/Typography.php:473 inc/Customizer/Typography/Typography.php:539 inc/Customizer/Typography/Typography.php:609 inc/Customizer/Typography/Typography.php:659
+msgid "Line Height (px)"
+msgstr "ارتفاع السطر (px)"
+
+#: inc/Customizer/Settings/Header.php:264
+msgid "Link button on mobile"
+msgstr "زر الرابط على الجوال"
+
+#: inc/Customizer/Settings/Contact_Info.php:97
+msgid "Linkedin"
+msgstr "لينكدإن"
+
+#: inc/Customizer/Settings/Blog.php:50
+msgid "List"
+msgstr "قائمة"
+
+#: inc/Customizer/Customizer.php:97
+msgid "Listing"
+msgstr "الإعلان"
+
+#: inc/Customizer/Customizer.php:216
+msgid "Listing Archive"
+msgstr "أرشيف الإعلانات"
+
+#: inc/Customizer/Settings/Listing_Archive_Layout.php:270
+msgid "Listing Archive Content Padding Bottom"
+msgstr "التبطين السفلي لمحتوى أرشيف الإعلانات"
+
+#: inc/Customizer/Settings/Listing_Archive_Layout.php:252
+msgid "Listing Archive Content Padding Top "
+msgstr "التبطين العلوي لمحتوى أرشيف الإعلانات "
+
+#: inc/Customizer/Customizer.php:297
+msgid "Listing Archive Layout"
+msgstr "تخطيط أرشيف الإعلانات"
+
+#: inc/Helper.php:166
+msgid "Listing Archive Sidebar"
+msgstr "الشريط الجانبي لأرشيف الإعلانات"
+
+#: inc/Customizer/Settings/Listings.php:106
+msgid "Listing Archive Title Text"
+msgstr "نص عنوان أرشيف الإعلانات"
+
+#: inc/Customizer/Settings/Listings.php:92
+msgid "Listing Archive Title Visibility"
+msgstr "ظهور عنوان أرشيف الإعلانات"
+
+#: inc/Customizer/Settings/Listings.php:144
+msgid "Listing Author"
+msgstr "كاتب الإعلان"
+
+#: inc/Customizer/Settings/Listings.php:123
+msgid "Listing Content Excerpt"
+msgstr "مقتطف محتوى الإعلان"
+
+#: classified-listing/elementor/listing-ads/list/style-6.php:61 classified-listing/elementor/listing-ads/list/style-7.php:59 classified-listing/elementor/listing-ads/grid/style-6.php:94 classified-listing/elementor/listing-ads/grid/style-7.php:90 classified-listing/custom/archive/list/list-1.php:32 classified-listing/custom/archive/grid/grid-1.php:36
+msgid "Listing Details"
+msgstr "تفاصيل الإعلان"
+
+#: inc/Customizer/Settings/Listings.php:167
+msgid "Listing Details Article Tab"
+msgstr "تبويب مقال تفاصيل الإعلان"
+
+#: inc/Customizer/Settings/Listings.php:150
+msgid "Listing Information"
+msgstr "معلومات الإعلان"
+
+#: inc/Customizer/Settings/Listings.php:60
+msgid "Listing Layout"
+msgstr "تخطيط الإعلان"
+
+#: inc/Customizer/Settings/Listings.php:149
+msgid "Listing Owner Information"
+msgstr "معلومات مالك الإعلان"
+
+#: inc/Listing_Functions.php:286 inc/Customizer/Customizer.php:209
+msgid "Listing Settings"
+msgstr "إعدادات الإعلانات"
+
+#: inc/Customizer/Customizer.php:223
+msgid "Listing Single"
+msgstr "الإعلان المفرد"
+
+#: inc/Customizer/Settings/Listing_Single_Layout.php:217
+msgid "Listing Single Content Padding Bottom"
+msgstr "التبطين السفلي لمحتوى الإعلان المفرد"
+
+#: inc/Customizer/Settings/Listing_Single_Layout.php:199
+msgid "Listing Single Content Padding Top "
+msgstr "التبطين العلوي لمحتوى الإعلان المفرد "
+
+#: inc/Customizer/Customizer.php:305
+msgid "Listing Single Layout"
+msgstr "تخطيط الإعلان المفرد"
+
+#: inc/Helper.php:167
+msgid "Listing Single Sidebar"
+msgstr "الشريط الجانبي للإعلان المفرد"
+
+#: classified-listing/elementor/listing-cat-slider/grid-style-2.php:97
+msgid "Listings"
+msgstr "الإعلانات"
+
+#: inc/Customizer/Customizer.php:230
+msgid "Listings Search"
+msgstr "البحث في الإعلانات"
+
+#: inc/Customizer/Settings/General.php:235
+msgid "Loading Image"
+msgstr "صورة التحميل"
+
+#: classified-listing/listing/listing-sidebar.php:230
+msgid "Location"
+msgstr "الموقع"
+
+#: lib/lc-helper.php:150
+msgid "Log in to your account at RadiusTheme.com."
+msgstr "سجّل الدخول إلى حسابك على RadiusTheme.com."
+
+#: inc/Listing_Functions.php:352 inc/Listing_Functions.php:390 classified-listing/myaccount/form-login.php:28 classified-listing/myaccount/form-login.php:60
+msgid "Login"
+msgstr "تسجيل الدخول"
+
+#: inc/Customizer/Settings/Header.php:278
+msgid "Login button on mobile"
+msgstr "زر تسجيل الدخول على الجوال"
+
+#: inc/Customizer/Settings/Header.php:175
+msgid "Login Button Text"
+msgstr "نص زر تسجيل الدخول"
+
+#: classified-listing/listing/listing-sidebar.php:80
+msgid "Login for Chat"
+msgstr "سجّل الدخول للدردشة"
+
+#: classified-listing/booking/listing-booking-form.php:58 classified-listing/booking/listing-booking-form.php:114
+msgid "Login to Book"
+msgstr "سجّل الدخول للحجز"
+
+#: inc/Customizer/Settings/General.php:99 inc/Customizer/Settings/General.php:152
+msgid "Logo max width"
+msgstr "الحد الأقصى لعرض الشعار"
+
+#: inc/Customizer/Settings/Header.php:191
+msgid "Logout Button Text"
+msgstr "نص زر تسجيل الخروج"
+
+#: inc/General.php:93
+msgid "Luminous vivid amber"
+msgstr "كهرماني حيوي مضيء"
+
+#: inc/Customizer/Settings/General.php:43
+msgid "Main Logo"
+msgstr "الشعار الرئيسي"
+
+#: inc/Customizer/Settings/Listings.php:230
+msgid "Max Price"
+msgstr "السعر الأقصى"
+
+#: inc/Listing_Functions.php:171
+msgid "Max Price Limit"
+msgstr "حد السعر الأقصى"
+
+#: classified-listing/claim/claim-popup-form.php:70
+msgid "Maximum file size 5 MB, only pdf file allowed."
+msgstr "الحد الأقصى لحجم الملف 5 ميغابايت، ملفات pdf فقط مسموح بها."
+
+#: inc/Customizer/Settings/Blog.php:95
+msgid "Medium Devices Columns"
+msgstr "أعمدة الأجهزة المتوسطة"
+
+#. %s is the year the member joined
+#: classified-listing/custom/listing-owner-info.php:71
+#, php-format
+msgid "Member Since : %s"
+msgstr "عضو منذ: %s"
+
+#: inc/Customizer/Typography/Typography.php:65 inc/Customizer/Typography/Typography.php:571
+msgid "Menu"
+msgstr "القائمة"
+
+#: inc/Customizer/Settings/Listing_Single_Layout.php:60 inc/Customizer/Settings/Listing_Archive_Layout.php:113 inc/Customizer/Settings/Blog_Layout.php:90 inc/Customizer/Settings/Error_Layout.php:60 inc/Customizer/Settings/Header.php:60 inc/Customizer/Settings/Post_Layout.php:90 inc/Customizer/Settings/Page_Layout.php:90
+msgid "Menu Alignment"
+msgstr "محاذاة القائمة"
+
+#: classified-listing/booking/confirmation-form.php:96
+msgid "Message"
+msgstr "الرسالة"
+
+#: inc/Listing_Functions.php:699 classified-listing/listing/actions.php:113
+msgid "Message... "
+msgstr "الرسالة... "
+
+#: inc/Customizer/Settings/Listings.php:215
+msgid "Min Price"
+msgstr "السعر الأدنى"
+
+#: inc/Customizer/Settings/Header.php:251
+msgid "Mobile Devices"
+msgstr "أجهزة الجوال"
+
+#: inc/Customizer/Settings/General.php:115 inc/Customizer/Settings/General.php:127
+msgid "Mobile Logo"
+msgstr "شعار الجوال"
+
+#: comments.php:67 classified-listing/booking/confirmation-form.php:84 classified-listing/claim/claim-popup-form.php:36
+msgid "Name"
+msgstr "الاسم"
+
+#: lib/lc-helper.php:159
+msgid "Need a hand?"
+msgstr "تحتاج للمساعدة؟"
+
+#: inc/Customizer/Settings/Footer.php:493
+msgid "Newsletter"
+msgstr "النشرة الإخبارية"
+
+#: template-parts/footer/photoswipe.php:42
+msgid "Next (arrow right)"
+msgstr "التالي (السهم الأيمن)"
+
+#: inc/Customizer/Settings/Listing_Single_Layout.php:125 inc/Customizer/Settings/Listing_Archive_Layout.php:178 inc/Customizer/Settings/Blog_Layout.php:155 inc/Customizer/Settings/Error_Layout.php:125 inc/Customizer/Settings/Error.php:47 inc/Customizer/Settings/Footer.php:131 inc/Customizer/Settings/Footer.php:321 inc/Customizer/Settings/Footer.php:577 inc/Customizer/Settings/Footer.php:773 inc/Customizer/Settings/Post_Layout.php:155 inc/Customizer/Settings/General.php:52 inc/Customizer/Settings/General.php:83 inc/Customizer/Settings/General.php:136 inc/Customizer/Settings/General.php:191 inc/Customizer/Settings/General.php:244 inc/Customizer/Settings/Page_Layout.php:155
+msgid "No file selected"
+msgstr "لم يتم اختيار ملف"
+
+#: lib/updater/theme-updater-admin.php:161
+msgid "Not Activated"
+msgstr "غير مفعّل"
+
+#: lib/lc-helper.php:78
+msgid "Not activated"
+msgstr "غير مفعّل"
+
+#: classified-listing/booking/listing-booking-form.php:37 classified-listing/booking/listing-booking-form.php:101
+msgid "Number of Patient"
+msgstr "عدد المرضى"
+
+#: classified-listing/custom/service-offer.php:38
+msgid "Offered Services"
+msgstr "الخدمات المقدمة"
+
+#: classified-listing/custom/listing-owner-info.php:75
+msgid "Offline Now"
+msgstr "غير متصل الآن"
+
+#: classified-listing/custom/listing-owner-info.php:77
+msgid "Online Available"
+msgstr "متاح على الإنترنت"
+
+#: classified-listing/listing/business-hours.php:36
+msgid "Open"
+msgstr "مفتوح"
+
+#: classified-listing/listing/business-hours.php:88
+msgid "Open (24 Hours)"
+msgstr "مفتوح (24 ساعة)"
+
+#: classified-listing/listing/business-hours.php:26 classified-listing/store/details-modal.php:40
+msgid "Open Hours"
+msgstr "ساعات العمل"
+
+#: classified-listing/listing/listing-sidebar.php:156
+msgid "Open now"
+msgstr "مفتوح الآن"
+
+#: lib/lc-helper.php:154
+msgid "Open RadiusTheme account"
+msgstr "افتح حساب RadiusTheme"
+
+#: classified-listing/listing/business-hours.php:87
+msgid "Open Today (24 Hours)"
+msgstr "مفتوح اليوم (24 ساعة)"
+
+#: inc/Customizer/Settings/Page_Layout.php:247
+msgid "Page Content Padding Bottom"
+msgstr "التبطين السفلي لمحتوى الصفحة"
+
+#: inc/Customizer/Settings/Page_Layout.php:229
+msgid "Page Content Padding Top "
+msgstr "التبطين العلوي لمحتوى الصفحة "
+
+#: inc/Customizer/Settings/General.php:236
+msgid "Page loading gif/animated image"
+msgstr "صورة gif/متحركة لتحميل الصفحة"
+
+#: inc/Customizer/Customizer.php:281
+msgid "Pages Layout"
+msgstr "تخطيط الصفحات"
+
+#: inc/General.php:123
+msgid "Pale cyan blue"
+msgstr "أزرق سماوي باهت"
+
+#: inc/General.php:103
+msgid "Pale pink"
+msgstr "وردي باهت"
+
+#: inc/Listing_Functions.php:373 classified-listing/myaccount/form-login.php:43 classified-listing/myaccount/form-login.php:114 classified-listing/myaccount/form-registration.php:58
+msgid "Password"
+msgstr "كلمة المرور"
+
+#: classified-listing/myaccount/form-login.php:130 classified-listing/myaccount/form-registration.php:74
+msgid "Password does not match."
+msgstr "كلمة المرور غير متطابقة."
+
+#: classified-listing/custom/single/content-single-1.php:163 classified-listing/custom/single/content-single-tab.php:104
+msgid "Patient Feedback"
+msgstr "تقييمات المرضى"
+
+#: classified-listing/store/details-modal.php:62
+msgid "Permanently Close"
+msgstr "إغلاق نهائي"
+
+#: classified-listing/booking/confirmation-form.php:76
+msgid "Personal Information"
+msgstr "المعلومات الشخصية"
+
+#: classified-listing/booking/confirmation-form.php:92 classified-listing/listing/listing-sidebar.php:186 classified-listing/claim/claim-popup-form.php:47
+msgid "Phone"
+msgstr "الهاتف"
+
+#: inc/Customizer/Settings/Contact_Info.php:127
+msgid "Pinterest"
+msgstr "بنترست"
+
+#: lib/updater/theme-updater-admin.php:503
+#, php-format
+msgid "Please %s to get update, full functionalities and customer support."
+msgstr "الرجاء %s للحصول على التحديثات والوظائف الكاملة ودعم العملاء."
+
+#. %s is the login page URL
+#: classified-listing/listing/user-information.php:36
+#, php-format
+msgid "Please <a href='%s'>login</a> to view the seller information."
+msgstr "الرجاء <a href='%s'>تسجيل الدخول</a> لعرض معلومات البائع."
+
+#: lib/lc-utility.php:545
+msgid "Please activate your theme license to install demo data."
+msgstr "الرجاء تفعيل ترخيص القالب لتثبيت البيانات التجريبية."
+
+#: lib/lc-utility.php:558 lib/lc-utility.php:575
+msgid "Please activate your theme license to use this plugin."
+msgstr "الرجاء تفعيل ترخيص القالب لاستخدام هذه الإضافة."
+
+#. 1: opening strong tag, 2: closing strong tag, 3: support link
+#: lib/lc-helper.php:132
+#, php-format
+msgid "Please keep in mind, you can activate one license in %1$sone domain%2$s. Having trouble? %3$s."
+msgstr "يرجى العلم أنه يمكنك تفعيل ترخيص واحد على %1$sنطاق واحد%2$s. هل تواجه مشكلة؟ %3$s."
+
+#. %1$s is the plugin name, %2$s is the update page URL
+#: functions.php:54
+#, php-format
+msgid "Please update plugin <b><i>%1$s</b></i> to the latest version otherwise some functionalities will not work properly. You can update it from <a href='%2$s'>here</a>"
+msgstr "الرجاء تحديث الإضافة <b><i>%1$s</b></i> إلى أحدث إصدار وإلا فلن تعمل بعض الوظائف بشكل صحيح. يمكنك تحديثها من <a href='%2$s'>هنا</a>"
+
+#: inc/Helper.php:237
+msgid "Popup"
+msgstr "النافذة المنبثقة"
+
+#: inc/Customizer/Customizer.php:199
+msgid "Post Details"
+msgstr "تفاصيل المنشور"
+
+#: inc/Customizer/Settings/General.php:220
+msgid "Preloader"
+msgstr "أداة التحميل المسبق"
+
+#: template-parts/footer/photoswipe.php:41
+msgid "Previous (arrow left)"
+msgstr "السابق (السهم الأيسر)"
+
+#: classified-listing/custom/listing-search-widget.php:279
+msgid "Price Range"
+msgstr "نطاق السعر"
+
+#: inc/General.php:146
+msgid "Primary"
+msgstr "أساسي"
+
+#: inc/General.php:63 inc/Customizer/Settings/Color.php:47
+msgid "Primary Color"
+msgstr "اللون الأساسي"
+
+#: classified-listing/listing/listing-sidebar.php:76 classified-listing/listing/user-information.php:51
+msgid "Quick Chat"
+msgstr "دردشة سريعة"
+
+#: classified-listing/elementor/listing-ads-slider/grid/style-6.php:116 classified-listing/elementor/listing-ads-slider/grid/style-7.php:117 classified-listing/elementor/listing-ads/list/style-6.php:152 classified-listing/elementor/listing-ads/list/style-7.php:131 classified-listing/elementor/listing-ads/grid/style-6.php:186 classified-listing/elementor/listing-ads/grid/style-7.php:187
+msgid "Quick View"
+msgstr "عرض سريع"
+
+#: classified-listing/custom/listing-search-widget.php:200 classified-listing/custom/listing-search-banner.php:192
+msgid "Radius"
+msgstr "نصف القطر"
+
+#. Author of the theme
+msgid "RadiusTheme"
+msgstr "RadiusTheme"
+
+#: classified-listing/custom/single/content-single-hero.php:43 classified-listing/custom/single/content-single-head.php:44
+msgid "Rating"
+msgstr "التقييم"
+
+#: template-parts/content.php:68
+msgid "Read More"
+msgstr "اقرأ المزيد"
+
+#: template-parts/content-none.php:16
+msgid "Ready to publish your first post?"
+msgstr "هل أنت جاهز لنشر أول منشور لك؟"
+
+#: classified-listing/myaccount/form-login.php:72 classified-listing/myaccount/form-login.php:85 classified-listing/myaccount/form-login.php:141 classified-listing/myaccount/form-registration.php:85
+msgid "Register"
+msgstr "التسجيل"
+
+#: classified-listing/myaccount/form-registration.php:29
+msgid "Registration"
+msgstr "التسجيل"
+
+#: classified-listing/listing/related-listings.php:48 inc/Customizer/Settings/Listings.php:185
+msgid "Related Listing"
+msgstr "الإعلانات ذات الصلة"
+
+#: inc/Listing_Functions.php:395 classified-listing/myaccount/form-login.php:65
+msgid "Remember Me"
+msgstr "تذكرني"
+
+#: inc/Customizer/Settings/Listing_Single_Layout.php:124 inc/Customizer/Settings/Listing_Archive_Layout.php:177 inc/Customizer/Settings/Blog_Layout.php:154 inc/Customizer/Settings/Error_Layout.php:124 inc/Customizer/Settings/Error.php:46 inc/Customizer/Settings/Footer.php:130 inc/Customizer/Settings/Footer.php:320 inc/Customizer/Settings/Footer.php:576 inc/Customizer/Settings/Footer.php:772 inc/Customizer/Settings/Post_Layout.php:154 inc/Customizer/Settings/General.php:51 inc/Customizer/Settings/General.php:82 inc/Customizer/Settings/General.php:135 inc/Customizer/Settings/General.php:190 inc/Customizer/Settings/General.php:243 inc/Customizer/Settings/Page_Layout.php:154
+msgid "Remove"
+msgstr "إزالة"
+
+#: inc/Customizer/Settings/General.php:279
+msgid "Remove Admin Bar"
+msgstr "إزالة شريط الإدارة"
+
+#: lib/updater/theme-updater.php:42
+msgid "Renew?"
+msgstr "تجديد؟"
+
+#: comments.php:30
+msgid "Reply"
+msgstr "رد"
+
+#: inc/Listing_Functions.php:691 classified-listing/listing/actions.php:103
+msgid "Report Abuse"
+msgstr "الإبلاغ عن إساءة"
+
+#. %1\$s is the currency symbol, %2\$s is the reservation fee amount
+#: classified-listing/booking/confirmation-form.php:62
+msgid "Reservation Fee: %1\\$s%2\\$s"
+msgstr "رسوم الحجز: %1\\$s%2\\$s"
+
+#: classified-listing/custom/archive/grid/grid-1.php:111
+msgid "review"
+msgstr "تقييم"
+
+#: inc/Listing_Functions.php:280
+msgid "Reviews"
+msgstr "التقييمات"
+
+#: classified-listing/elementor/listing-ads/grid/style-6.php:222 classified-listing/elementor/listing-ads/grid/style-7.php:220 classified-listing/custom/archive/grid/grid-1.php:111
+msgid "reviews"
+msgstr "تقييمات"
+
+#: inc/Customizer/Settings/Listing_Single_Layout.php:65 inc/Customizer/Settings/Listing_Archive_Layout.php:118 inc/Customizer/Settings/Blog_Layout.php:95 inc/Customizer/Settings/Error_Layout.php:65 inc/Customizer/Settings/Header.php:64 inc/Customizer/Settings/Post_Layout.php:95 inc/Customizer/Settings/Page_Layout.php:95
+msgid "Right Alignment"
+msgstr "محاذاة لليمين"
+
+#: inc/Customizer/Settings/Listing_Archive_Layout.php:57 inc/Customizer/Settings/Blog_Layout.php:57 inc/Customizer/Settings/Post_Layout.php:57 inc/Customizer/Settings/Page_Layout.php:57
+msgid "Right Sidebar"
+msgstr "الشريط الجانبي الأيمن"
+
+#: lib/updater/theme-updater-admin.php:181
+msgid "Save Changes"
+msgstr "حفظ التغييرات"
+
+#: inc/General.php:243
+msgid "Search here..."
+msgstr "ابحث هنا..."
+
+#: inc/Helper.php:371
+msgid "Search Results for : "
+msgstr "نتائج البحث عن: "
+
+#: inc/Customizer/Settings/Listings.php:201
+msgid "Search Widget"
+msgstr "أداة البحث"
+
+#: inc/General.php:68 inc/Customizer/Settings/Color.php:61
+msgid "Secondary Color"
+msgstr "اللون الثانوي"
+
+#: classified-listing/custom/listing-search-widget.php:164 classified-listing/custom/listing-search-banner.php:157
+msgid "Select a location"
+msgstr "اختر موقعاً"
+
+#: inc/Listing_Functions.php:194 classified-listing/custom/listing-search-widget.php:28 classified-listing/custom/listing-search-banner.php:21
+msgid "Select Category"
+msgstr "اختر الفئة"
+
+#: inc/Customizer/Settings/Listing_Single_Layout.php:121 inc/Customizer/Settings/Listing_Single_Layout.php:126 inc/Customizer/Settings/Listing_Archive_Layout.php:174 inc/Customizer/Settings/Listing_Archive_Layout.php:179 inc/Customizer/Settings/Blog_Layout.php:151 inc/Customizer/Settings/Blog_Layout.php:156 inc/Customizer/Settings/Error_Layout.php:121 inc/Customizer/Settings/Error_Layout.php:126 inc/Customizer/Settings/Error.php:43 inc/Customizer/Settings/Error.php:48 inc/Customizer/Settings/Footer.php:127 inc/Customizer/Settings/Footer.php:132 inc/Customizer/Settings/Footer.php:317 inc/Customizer/Settings/Footer.php:322 inc/Customizer/Settings/Footer.php:573 inc/Customizer/Settings/Footer.php:578 inc/Customizer/Settings/Footer.php:769 inc/Customizer/Settings/Footer.php:774 inc/Customizer/Settings/Post_Layout.php:151 inc/Customizer/Settings/Post_Layout.php:156 inc/Customizer/Settings/General.php:53 inc/Customizer/Settings/General.php:84 inc/Customizer/Settings/General.php:137 inc/Customizer/Settings/General.php:192 inc/Customizer/Settings/General.php:245 inc/Customizer/Settings/Page_Layout.php:151 inc/Customizer/Settings/Page_Layout.php:156
+msgid "Select File"
+msgstr "اختر ملفاً"
+
+#: inc/Customizer/Settings/General.php:187 inc/Customizer/Settings/General.php:240
+msgid "Select Image"
+msgstr "اختر صورة"
+
+#: classified-listing/custom/listing-search-widget.php:27 classified-listing/custom/listing-search-banner.php:20
+msgid "Select Location"
+msgstr "اختر الموقع"
+
+#: inc/Customizer/Settings/General.php:48 inc/Customizer/Settings/General.php:79 inc/Customizer/Settings/General.php:132
+msgid "Select Logo"
+msgstr "اختر الشعار"
+
+#: inc/Customizer/Settings/Blog.php:45
+msgid "Select the blog style"
+msgstr "اختر نمط المدونة"
+
+#: inc/Customizer/Settings/Listing_Single_Layout.php:254 inc/Customizer/Settings/Listing_Archive_Layout.php:307 inc/Customizer/Settings/Blog_Layout.php:284 inc/Customizer/Settings/Error_Layout.php:253 inc/Customizer/Settings/Post_Layout.php:284 inc/Customizer/Settings/Page_Layout.php:284
+msgid "Select the default footer layout"
+msgstr "اختر تخطيط التذييل الافتراضي"
+
+#: inc/Customizer/Settings/Listing_Single_Layout.php:44 inc/Customizer/Settings/Listing_Archive_Layout.php:97 inc/Customizer/Settings/Blog_Layout.php:74 inc/Customizer/Settings/Error_Layout.php:44 inc/Customizer/Settings/Post_Layout.php:74 inc/Customizer/Settings/Page_Layout.php:74
+msgid "Select the default header layout"
+msgstr "اختر تخطيط الترويسة الافتراضي"
+
+#: inc/Customizer/Settings/Listing_Archive_Layout.php:44
+msgid "Select the default layout for listing archive"
+msgstr "اختر التخطيط الافتراضي لأرشيف الإعلانات"
+
+#: inc/Customizer/Settings/Blog_Layout.php:44
+msgid "Select the default template layout for blog archive"
+msgstr "اختر تخطيط القالب الافتراضي لأرشيف المدونة"
+
+#: inc/Customizer/Settings/Page_Layout.php:44
+msgid "Select the default template layout for Pages"
+msgstr "اختر تخطيط القالب الافتراضي للصفحات"
+
+#: inc/Customizer/Settings/Post_Layout.php:44
+msgid "Select the default template layout for single post"
+msgstr "اختر تخطيط القالب الافتراضي للمنشور المفرد"
+
+#: inc/Customizer/Settings/Footer.php:61
+msgid "Select the footer style"
+msgstr "اختر نمط التذييل"
+
+#: inc/Customizer/Settings/Header.php:44
+msgid "Select the header style"
+msgstr "اختر نمط الترويسة"
+
+#: inc/Listing_Functions.php:166 classified-listing/custom/listing-search-widget.php:29 classified-listing/custom/listing-search-banner.php:22
+msgid "Select Type"
+msgstr "اختر النوع"
+
+#: classified-listing/booking/listing-booking-form.php:78
+msgid "Serial not available."
+msgstr "الرقم التسلسلي غير متاح."
+
+#: template-parts/footer/photoswipe.php:27 classified-listing/listing/actions.php:62
+msgid "Share"
+msgstr "مشاركة"
+
+#: inc/Listing_Functions.php:668 classified-listing/listing/actions.php:78
+msgid "Share This Link Via"
+msgstr "شارك هذا الرابط عبر"
+
+#: template-parts/content-single.php:90
+msgid "Share:"
+msgstr "مشاركة:"
+
+#: inc/Customizer/Settings/Footer.php:538
+msgid "Shortcode"
+msgstr "الكود المختصر"
+
+#: inc/Customizer/Settings/Header.php:98
+msgid "Show header at the top when scrolling down"
+msgstr "أظهر الترويسة في الأعلى عند التمرير للأسفل"
+
+#: inc/Helper.php:165 inc/General.php:154
+msgid "Sidebar"
+msgstr "الشريط الجانبي"
+
+#: inc/Customizer/Settings/Post_Layout.php:247
+msgid "Single Post Content Padding Bottom"
+msgstr "التبطين السفلي لمحتوى المنشور المفرد"
+
+#: inc/Customizer/Settings/Post_Layout.php:229
+msgid "Single Post Content Padding Top "
+msgstr "التبطين العلوي لمحتوى المنشور المفرد "
+
+#: inc/Customizer/Customizer.php:273
+msgid "Single Post Layout"
+msgstr "تخطيط المنشور المفرد"
+
+#: inc/Customizer/Customizer.php:240
+msgid "Site Color"
+msgstr "لون الموقع"
+
+#: lib/updater/theme-updater.php:55
+msgid "Site is inactive."
+msgstr "الموقع غير نشط."
+
+#: inc/Customizer/Settings/General.php:206
+msgid "Site Switch Control"
+msgstr "التحكم في تبديل الموقع"
+
+#: header.php:31
+msgid "Skip to content"
+msgstr "الانتقال إلى المحتوى"
+
+#: inc/Customizer/Settings/Contact_Info.php:142
+msgid "Skype"
+msgstr "سكايب"
+
+#: classified-listing/custom/single/content-single-1.php:237
+msgid "Social Profile"
+msgstr "الملف الاجتماعي"
+
+#: template-parts/content-none.php:20
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "عذراً، لا توجد نتائج مطابقة لبحثك. الرجاء المحاولة مرة أخرى بكلمات مختلفة."
+
+#: classified-listing/listing/business-hours.php:127
+msgid "Sorry, we are currently closed."
+msgstr "عذراً، نحن مغلقون حالياً."
+
+#: inc/Helper.php:232
+msgid "Standard"
+msgstr "قياسي"
+
+#: inc/Customizer/Settings/Header.php:97
+msgid "Sticky Header"
+msgstr "الترويسة الثابتة"
+
+#: inc/Helper.php:188
+msgid "Style 1"
+msgstr "النمط 1"
+
+#: inc/Customizer/Typography/Typography.php:639
+msgid "Sub Menu Font Size"
+msgstr "حجم خط القائمة الفرعية"
+
+#: inc/Customizer/Typography/Typography.php:658
+msgid "Sub Menu Line Height"
+msgstr "ارتفاع سطر القائمة الفرعية"
+
+#: inc/Listing_Functions.php:705 classified-listing/listing/actions.php:121
+msgid "Submit"
+msgstr "إرسال"
+
+#: template-parts/content-single.php:82
+msgid "Tags:"
+msgstr "الوسوم:"
+
+#: lib/lc-helper.php:48 lib/lc-helper.php:49 lib/lc-helper.php:75 lib/updater/theme-updater.php:35
+msgid "Theme License"
+msgstr "ترخيص القالب"
+
+#: inc/Customizer/Settings/Blog.php:72
+msgid "This grid system work only for large devices"
+msgstr "نظام الشبكة هذا يعمل فقط للأجهزة الكبيرة"
+
+#: inc/Customizer/Settings/Blog.php:97
+msgid "This grid system work only for medium devices"
+msgstr "نظام الشبكة هذا يعمل فقط للأجهزة المتوسطة"
+
+#: inc/Customizer/Settings/Listings.php:61
+msgid "This is listing archive box listing style"
+msgstr "هذا هو نمط قائمة صندوق أرشيف الإعلانات"
+
+#: inc/Customizer/Settings/Listings.php:146
+msgid "This is listing information like store info, store owner info, store manager info"
+msgstr "هذه هي معلومات الإعلان مثل معلومات المتجر ومعلومات مالك المتجر ومعلومات مدير المتجر"
+
+#: inc/Customizer/Settings/Listing_Single_Layout.php:117 inc/Customizer/Settings/Listing_Archive_Layout.php:170 inc/Customizer/Settings/Blog_Layout.php:147 inc/Customizer/Settings/Error_Layout.php:117 inc/Customizer/Settings/Footer.php:123 inc/Customizer/Settings/Footer.php:313 inc/Customizer/Settings/Footer.php:569 inc/Customizer/Settings/Footer.php:765 inc/Customizer/Settings/Post_Layout.php:147 inc/Customizer/Settings/Page_Layout.php:147
+msgid "This is the description for the Media Control"
+msgstr "هذا هو الوصف للتحكم بالوسائط"
+
+#: inc/Customizer/Settings/General.php:281
+msgid "This option not work for administrator users."
+msgstr "هذا الخيار لا يعمل لمستخدمي الإدارة."
+
+#: inc/Customizer/Settings/Contact_Info.php:157
+msgid "Tiktok"
+msgstr "تيك توك"
+
+#: inc/Customizer/Settings/Footer.php:506 inc/Customizer/Settings/Footer.php:522
+msgid "Title"
+msgstr "العنوان"
+
+#: inc/Listing_Functions.php:423 inc/Listing_Functions.php:426
+msgid "Today"
+msgstr "اليوم"
+
+#: template-parts/footer/photoswipe.php:28
+msgid "Toggle fullscreen"
+msgstr "تبديل ملء الشاشة"
+
+#: inc/Customizer/Settings/Footer.php:211 inc/Customizer/Settings/Footer.php:227 inc/Customizer/Settings/Footer.php:243 inc/Customizer/Settings/Footer.php:259 inc/Customizer/Settings/Footer.php:275 inc/Customizer/Settings/Footer.php:284 inc/Customizer/Settings/Footer.php:402 inc/Customizer/Settings/Footer.php:418 inc/Customizer/Settings/Footer.php:434 inc/Customizer/Settings/Footer.php:450 inc/Customizer/Settings/Footer.php:466 inc/Customizer/Settings/Footer.php:482 inc/Customizer/Settings/Footer.php:657 inc/Customizer/Settings/Footer.php:673 inc/Customizer/Settings/Footer.php:689 inc/Customizer/Settings/Footer.php:705 inc/Customizer/Settings/Footer.php:721 inc/Customizer/Settings/Footer.php:737 inc/Customizer/Settings/Footer.php:853 inc/Customizer/Settings/Footer.php:869 inc/Customizer/Settings/Footer.php:885 inc/Customizer/Settings/Footer.php:901 inc/Customizer/Settings/Footer.php:917 inc/Customizer/Settings/Footer.php:933
+msgid "Total Columns 12"
+msgstr "إجمالي الأعمدة 12"
+
+#. %1\$s is the currency symbol, %2\$s is the total fee amount
+#: classified-listing/booking/confirmation-form.php:59
+msgid "Total Fee: %1\\$s%2\\$s"
+msgstr "الرسوم الإجمالية: %1\\$s%2\\$s"
+
+#. %1\$s is the currency symbol, %2\$s is the total reservation fee
+#: classified-listing/booking/confirmation-form.php:72
+msgid "Total Reservation Fee: %1\\$s%2\\$s"
+msgstr "إجمالي رسوم الحجز: %1\\$s%2\\$s"
+
+#: inc/Customizer/Settings/Contact_Info.php:67
+msgid "Twitter"
+msgstr "تويتر"
+
+#: inc/Customizer/Typography/Typography.php:41
+msgid "Typography"
+msgstr "الطباعة"
+
+#: lib/updater/theme-updater.php:43
+msgid "unlimited"
+msgstr "غير محدود"
+
+#: lib/updater/theme-updater.php:57
+msgid "Updating this theme will lose any customizations you have made. 'Cancel' to stop, 'OK' to update."
+msgstr "تحديث هذا القالب سيؤدي إلى فقدان أي تخصيصات قمت بها. 'إلغاء' للإيقاف، 'موافق' للتحديث."
+
+#: classified-listing/claim/claim-popup-form.php:64
+msgid "Upload File"
+msgstr "رفع الملف"
+
+#: classified-listing/myaccount/form-login.php:93 classified-listing/myaccount/form-registration.php:37
+msgid "Username"
+msgstr "اسم المستخدم"
+
+#: classified-listing/myaccount/form-login.php:99 classified-listing/myaccount/form-registration.php:43
+msgid "Username cannot be changed."
+msgstr "لا يمكن تغيير اسم المستخدم."
+
+#: inc/Listing_Functions.php:363 classified-listing/myaccount/form-login.php:33
+msgid "Username or E-mail"
+msgstr "اسم المستخدم أو البريد الإلكتروني"
+
+#: classified-listing/listing/listing-sidebar.php:132
+msgid "Video consultation available"
+msgstr "الاستشارة عبر الفيديو متاحة"
+
+#: classified-listing/listing/listing-sidebar.php:107
+msgid "Video visit"
+msgstr "زيارة عبر الفيديو"
+
+#. %s: Category term
+#: classified-listing/elementor/listing-cat-box/grid-style-3.php:50 classified-listing/elementor/listing-cat-box/grid-style-2.php:49 classified-listing/elementor/listing-cat-box/grid-style-1.php:50 classified-listing/elementor/listing-cat-slider/grid-style-2.php:45 classified-listing/elementor/listing-cat-slider/grid-style-1.php:44
+#, php-format
+msgid "View all posts in %s"
+msgstr "عرض جميع المنشورات في %s"
+
+#: classified-listing/store/details-modal.php:83
+msgid "Visit our website"
+msgstr "زر موقعنا"
+
+#: inc/General.php:118
+msgid "Vivid cyan blue"
+msgstr "أزرق سماوي حيوي"
+
+#: inc/General.php:108
+msgid "Vivid green cyan"
+msgstr "أخضر مزرق حيوي"
+
+#: inc/General.php:98
+msgid "Vivid purple"
+msgstr "بنفسجي حيوي"
+
+#: classified-listing/listing/business-hours.php:125
+msgid "We are currently open."
+msgstr "نحن مفتوحون حالياً."
+
+#: classified-listing/listing/listing-sidebar.php:198
+msgid "Whatsapp"
+msgstr "واتساب"
+
+#: lib/lc-helper.php:148
+msgid "Where's my license key?"
+msgstr "أين مفتاح الترخيص الخاص بي؟"
+
+#: inc/General.php:83
+msgid "White"
+msgstr "أبيض"
+
+#: inc/Customizer/Settings/Footer.php:192 inc/Customizer/Settings/Footer.php:383 inc/Customizer/Settings/Footer.php:638 inc/Customizer/Settings/Footer.php:834
+msgid "Widget Area"
+msgstr "منطقة الأدوات"
+
+#: inc/Customizer/Settings/Listing_Archive_Layout.php:75
+msgid "Width is defined by the number of columns."
+msgstr "يتم تحديد العرض بعدد الأعمدة."
+
+#: classified-listing/listing/listing-sidebar.php:151
+msgid "Working hours"
+msgstr "ساعات العمل"
+
+#: classified-listing/claim/claim-popup-form.php:53
+msgid "Write your claim here"
+msgstr "اكتب مطالبتك هنا"
+
+#: classified-listing/booking/confirmation-form.php:97
+msgid "Write your message here"
+msgstr "اكتب رسالتك هنا"
+
+#. 1: number of active sites, 2: total allowed sites
+#: lib/updater/theme-updater.php:48
+#, php-format
+msgid "You have %1$s / %2$s sites activated."
+msgstr "لديك %1$s / %2$s موقعاً مفعّلاً."
+
+#: template-parts/comments-callback.php:48
+msgid "Your comment is awaiting moderation."
+msgstr "تعليقك بانتظار المراجعة."
+
+#: inc/Listing_Functions.php:697 classified-listing/listing/actions.php:110
+msgid "Your Complaint"
+msgstr "شكواك"
+
+#: inc/Customizer/Settings/Contact_Info.php:112
+msgid "Youtube"
+msgstr "يوتيوب"
+
+#: template-parts/footer/photoswipe.php:29
+msgid "Zoom in/out"
+msgstr "تكبير/تصغير"

@@ -1,0 +1,14 @@
+{
+    "name": "radiustheme/cldoctor",
+    "authors": [
+        {
+            "name": "RadiusTheme",
+            "email": "techlabpro18@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+          "RadiusTheme\\Cldoctor\\": "inc"
+        }
+    }
+}
