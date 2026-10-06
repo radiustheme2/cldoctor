@@ -32,6 +32,7 @@ class Listing_Functions {
 		add_action( 'wp_ajax_rtcl_advanced_search_by_type', [ $this, 'rtcl_advanced_search_by_type_func' ] );
 		add_action( 'wp_ajax_nopriv_rtcl_advanced_search_by_type', [ $this, 'rtcl_advanced_search_by_type_func' ] );
 		add_filter( 'rtcl_get_icon_class_list', [ $this, 'rtcl_icon_list_modify' ] );
+        add_filter( 'rtcl_force_classic_style', '__return_true' );
 	}
 
 	public static function instance() {
