@@ -75,14 +75,14 @@ class TGM_Config {
 			[
 				'name'         => 'Classified Listing Pro',
 				'slug'         => 'classified-listing-pro',
-				'source'       => 'classified-listing-pro.4.2.5.zip',
+				'source'       => 'classified-listing-pro.zip',
 				'required'     =>  true,
 				'version'      => '4.3.0'
 			],
 			[
 				'name'         => 'Classified Listing Store',
 				'slug'         => 'classified-listing-store',
-				'source'       => 'classified-listing-store.3.2.1.zip',
+				'source'       => 'classified-listing-store.zip',
 				'required'     =>  false,
 				'version'      => '3.2.3'
 			],
