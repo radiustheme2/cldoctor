@@ -11,12 +11,19 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 use Rtcl\Helpers\Functions;
 
-$col_class = 'row-cols-' . $settings['rtcl_col_mobile'];
-$col_class .= ' row-cols-xs-' . $settings['rtcl_col_mobile'];
-$col_class .= ' row-cols-sm-' . $settings['rtcl_col_sm'];
-$col_class .= ' row-cols-md-' . $settings['rtcl_col_md'];
-$col_class .= ' row-cols-lg-' . $settings['rtcl_col_lg'];
-$col_class .= ' row-cols-xl-' . $settings['rtcl_col_xl'];
+// Missing breakpoints fall back to the next smaller one (Toolkits no longer saves rtcl_col_lg/xl).
+$col_mobile = ! empty( $settings['rtcl_col_mobile'] ) ? $settings['rtcl_col_mobile'] : '1';
+$col_sm     = ! empty( $settings['rtcl_col_sm'] ) ? $settings['rtcl_col_sm'] : $col_mobile;
+$col_md     = ! empty( $settings['rtcl_col_md'] ) ? $settings['rtcl_col_md'] : $col_sm;
+$col_lg     = ! empty( $settings['rtcl_col_lg'] ) ? $settings['rtcl_col_lg'] : $col_md;
+$col_xl     = ! empty( $settings['rtcl_col_xl'] ) ? $settings['rtcl_col_xl'] : $col_lg;
+
+$col_class = 'row-cols-' . $col_mobile;
+$col_class .= ' row-cols-xs-' . $col_mobile;
+$col_class .= ' row-cols-sm-' . $col_sm;
+$col_class .= ' row-cols-md-' . $col_md;
+$col_class .= ' row-cols-lg-' . $col_lg;
+$col_class .= ' row-cols-xl-' . $col_xl;
 
 ?>
 
