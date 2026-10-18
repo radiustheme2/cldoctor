@@ -2615,7 +2615,25 @@ i.icon-pl-phone {
     background-color: #ffffff;
     box-shadow: 0 1px 2px rgba(14, 20, 48, .04), 0 1px 0 rgba(14, 20, 48, .02);
     @media screen and (max-width: 767px) {
-        padding: 20px 30px 30px;
+        padding: 20px 20px 24px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .doctor-details-tabs .nav-pills {
+        flex-wrap: nowrap;
+    }
+
+    .doctor-details-tabs .nav-pills .nav-item {
+        flex: 1 1 0;
+        min-width: 0;
+    }
+
+    .doctor-details-tabs .nav-pills .nav-item .nav-link {
+        width: 100%;
+        font-size: 15px;
+        padding: 16px 10px;
+        white-space: nowrap;
     }
 }
 
@@ -5169,6 +5187,38 @@ nav.rtcl-pagination ul li > span {
     .cta-btn {
         flex: 1 1 auto;
         justify-content: center;
+    }
+
+    .hero-profile {
+        gap: 0;
+        grid-template-columns: 1fr;
+    }
+
+    .hero-photo {
+        aspect-ratio: 4 / 3;
+    }
+
+    .hero-photo img {
+        object-position: top center;
+    }
+
+    .hero-body {
+        padding: 20px 14px 14px;
+    }
+
+    .hero-name {
+        font-size: 28px;
+    }
+
+    .hero-body .rtcl-single-actions {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .listing-sidebar-new {
+        position: static;
+        margin-top: 30px;
     }
 }
 
